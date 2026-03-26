@@ -1,0 +1,25 @@
+import sys
+
+from sklearn.metrics import accuracy_score
+
+sys.path.append("C:\\KS_AI_JLR_23\\ML_deployments\\Titanic_dataset\\")
+
+import numpy as np
+from classification_model.predict import make_prediction
+
+def test_make_prediction(sample_input_data):
+    expected_no_predictions = 131
+
+    result = make_prediction(input_data = sample_input_data)
+
+    predictions = result.get('predictions')
+
+    assert isinstance(predictions, np.ndarray)
+    assert isinstance(predictions[0], np.int64)
+    assert result.get('errors') is None
+    assert len(predictions) == expected_no_predictions
+    _predictions = list(predictions)
+    y_true = sample_input_data['survived']
+    accuracy = accuracy_score(y_true, _predictions)
+
+    assert accuracy > 0.7

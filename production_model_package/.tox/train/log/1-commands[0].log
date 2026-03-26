@@ -1,0 +1,34 @@
+name: train
+run_id: commands[0]
+env APPDATA: C:\Users\SAMSUNG\AppData\Roaming
+env COLUMNS: 120
+env COMSPEC: C:\Windows\system32\cmd.exe
+env LINES: 30
+env LOCALAPPDATA: C:\Users\SAMSUNG\AppData\Local
+env NUMBER_OF_PROCESSORS: 16
+env PATH: C:\KS_AI_JLR_23\ML_deployments\production_model_package\.tox\test_package\Scripts;C:\anaconda3\envs\ml_deployment;C:\anaconda3\envs\ml_deployment\Library\mingw-w64\bin;C:\anaconda3\envs\ml_deployment\Library\usr\bin;C:\anaconda3\envs\ml_deployment\Library\bin;C:\anaconda3\envs\ml_deployment\Scripts;C:\anaconda3\envs\ml_deployment\bin;C:\anaconda3\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\DTS\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\DTS\Binn;C:\Program Files\Java\jdk-21bin;C:\Program Files\Git\cmd;C:\Users\SAMSUNG\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;C:\Users\SAMSUNG\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm 2025.3.1.1\bin
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES: C:\Program Files
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env PYTHONHASHSEED: 737
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env SSL_CERT_FILE: C:\anaconda3\Library\ssl\cacert.pem
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\Windows
+env TEMP: C:\Users\SAMSUNG\AppData\Local\Temp
+env TMP: C:\Users\SAMSUNG\AppData\Local\Temp
+env TOX_ENV_DIR: C:\KS_AI_JLR_23\ML_deployments\production_model_package\.tox\test_package
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: C:\KS_AI_JLR_23\ML_deployments\production_model_package\.tox
+env USERPROFILE: C:\Users\SAMSUNG
+env VIRTUAL_ENV: C:\KS_AI_JLR_23\ML_deployments\production_model_package\.tox\test_package
+env WINDIR: C:\Windows
+metadata pid: 4112
+cwd: C:\KS_AI_JLR_23\ML_deployments\production_model_package
+allow: C:\KS_AI_JLR_23\ML_deployments\production_model_package\.tox\test_package\Scripts\*:train
+cmd: python regression_model/train_pipeline.py
+exit_code: 0
