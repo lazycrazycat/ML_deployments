@@ -2,7 +2,7 @@ from pathlib import Path
 
 from setuptools import find_packages, setup
 
-NAME = "vve-regression_model"
+NAME = "vve-regression-model"
 DESCRIPTION = "Example regression model package"
 URL = "https://veravla-edu.online"
 EMAIL = "info@veravla-edu.online"
